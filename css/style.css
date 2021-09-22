@@ -26,11 +26,14 @@ body {
 
 /* header  */
 
-nav {
+.navbarContainer {    
     width: 100%;
     /* debug */
     height: 100px;
     background-color: darkgoldenrod;
+}
+
+nav {
 }
 
 #logo {
