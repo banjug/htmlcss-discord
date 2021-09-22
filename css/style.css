@@ -29,7 +29,7 @@ body {
 .navbarContainer {    
     width: 100%;
     /* debug */
-    height: 100px;
+    height: auto;
     background-color: darkgoldenrod;
 }
 
@@ -65,15 +65,15 @@ body {
     position: relative;
 }
 
-#jumbotron section {
-    width: 60%;
-    height: 60%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: firebrick;
-}
+    #jumbotron section {
+        width: 60%;
+        height: 60%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: firebrick;
+    }
 
 /* main  */
 
@@ -83,14 +83,45 @@ body {
     background-color: fuchsia;
 }
 
-.mainSection div {
-    display: inline-block;
-    background-color: gold;
-    width: 50%;
-    height: 100%;
-    float: left;
-}
+    .mainSection div {
+        display: inline-block;
+        background-color: gold;
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
 
 /* footer  */
 
+footer {
+    background-color: indigo;
+    width: 100%;
+    height: auto;
+}
 
+    #topFooter {
+        width: 100%;
+        height: auto;
+        background-color: lawngreen;
+    }
+
+        #topFooter div {
+            float: left;
+            height: 200px;
+        }
+
+            #footerTitle {
+                width: 30%;
+                background-color: lemonchiffon;
+            }
+
+            #footerLinks {
+                width: 70%;
+                background-color: lightgray;
+            }
+
+#bottomFooter {
+    width: 100%;
+    height: 200px;
+    background-color: lightsteelblue;
+}
