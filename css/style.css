@@ -12,12 +12,50 @@ body {
     font-family: 'Whitney', sans-serif;
 }
 
+.centered {
+    width: 80%;
+    margin: 0 auto;
+}
 
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 
 /* header  */
 
+nav {
+    width: 100%;
+    /* debug */
+    height: 100px;
+    background-color: darkgoldenrod;
+}
 
+#logo {
+    float: left;
+    width: 25%;
+    /* debug */
+    height: 80px;
+    background-color: darkgray;
+}
+
+#navbar {
+    float: left;
+    width: 50%;
+    /* debug */
+    height: 80px;
+    background-color: darkgreen;
+}
+
+#login {
+    float: left;
+    width: 25%;
+    /* debug */
+    height: 80px;
+    background-color: darkmagenta;
+}
 
 /* main  */
 
