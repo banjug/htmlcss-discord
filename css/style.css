@@ -129,7 +129,7 @@ h3 {
 
 /* main  */
 
-.graySection {
+.mainSectBackground {
     background-color: #f6f6f6;
 }
 
@@ -157,6 +157,38 @@ h3 {
     .mainSectionText {
         padding: 100px 150px;
     }
+
+.lastSection {
+    text-align: center;
+}
+
+    .lastSection .mainSectionText {
+        padding: 100px 100px 0;
+    }
+
+    .lastSection .mainSectionImg {
+        padding: 0 100px;
+    }
+
+    .lastSection h4 {
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+        font-size: 30px;
+        background-image: url(../img/stars.svg);
+        background-size: 100%;
+        padding-top: 50px;
+    }
+
+    .lastSection .button {
+        margin: 50px 0;
+    }
+
+    .btnGray {
+        background-color: #8ea1e1;
+        color: #fff;
+    }
+
 /* footer  */
 
 footer {
