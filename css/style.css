@@ -1,5 +1,28 @@
+@import url('http://fonts.cdnfonts.com/css/whitney-2');
+
+/* regole generali  */
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: 'Whitney', sans-serif;
+}
+
+
+
+
+/* header  */
+
+
+
+/* main  */
+
+
+
+/* footer  */
+
+
