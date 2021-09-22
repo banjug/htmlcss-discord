@@ -254,7 +254,12 @@ footer {
                 list-style-type: none;
             }
 
-                .linksTitle {
+                #footerLinks a {
+                    text-decoration: none;
+                    color: #fff;
+                }
+
+                #footerLinks .linksTitle {
                     color: #7289da;
                 }
 
