@@ -184,7 +184,7 @@ h3 {
         margin: 50px 0;
     }
 
-    .btnGray {
+    .btnBlue {
         background-color: #8ea1e1;
         color: #fff;
     }
@@ -195,27 +195,29 @@ footer {
     background-color: #23272a;
     width: 100%;
     height: auto;
+    color: #fff;
 }
 
     #topFooter {
         width: 100%;
         height: auto;
-        background-color: lawngreen;
+        padding: 100px 0 50px;
+        border-bottom: 2px solid #7289da;
     }
 
         #footerTitle, #footerLinks {
             float: left;
-            height: 200px;
         }
 
             #footerTitle {
-                width: 30%;
-                background-color: lemonchiffon;
+                width: 25%;
+                padding-right: 100px;
             }
 
                 #footerTitle h4 {
                     color: #7289da;
                     font-size: 30px;
+                    margin-bottom: 25px;
                 }
 
                 #footerLanguage {
@@ -223,16 +225,42 @@ footer {
                     font-size: 15px;
                     line-height: 15px;
                     vertical-align: middle;
+                    margin-bottom: 25px;
                 }
 
                     #footerLanguage img {
                         max-height: 15px;
+                        margin-right: 3px;
                     }
 
-            #footerLinks {
-                width: 70%;
-                background-color: lightgray;
+                    #footerLanguage a {
+                        text-decoration: none;
+                        color: #fff;
+                    }
+
+                    #footerLanguage i {
+                        font-size: 10px;
+                    }
+
+                    #socialMediaIcons i {
+                        margin-right: 15px;
+                        color: #fff;
+                    }
+
+            #footerLinks ul {
+                display: inline-block;
+                float: left;
+                margin-right: 100px;
+                list-style-type: none;
             }
+
+                .linksTitle {
+                    color: #7289da;
+                }
+
+                #footerLinks ul li {
+                    margin-bottom: 10px;
+                }
 
 #bottomFooter {
     width: 100%;
