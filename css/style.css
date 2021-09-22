@@ -12,6 +12,11 @@ body {
     font-family: 'Whitney', sans-serif;
 }
 
+h3 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
 .centered {
     width: 80%;
     margin: 0 auto;
@@ -101,10 +106,8 @@ body {
         transform: translate(-50%, -50%);
     }
 
-        #jumbotron section h1 {
+        #jumbotron section h3 {
             color: #fff;
-            font-size: 50px;
-            margin-bottom: 30px;
         }
 
         #jumbotron section p {
@@ -126,20 +129,34 @@ body {
 
 /* main  */
 
+.graySection {
+    background-color: #f6f6f6;
+}
+
 .mainSection {
     width: 100%;
     height: 75vh;
-    background-color: fuchsia;
 }
 
     .mainSection div {
         display: inline-block;
-        background-color: gold;
         width: 50%;
         height: 100%;
         float: left;
     }
 
+
+    .mainSectionImg {
+        padding: 100px 0 100px 100px;
+
+    }
+        .mainSectionImg  img{
+            max-width: 100%;
+        }
+
+    .mainSectionText {
+        padding: 100px 150px;
+    }
 /* footer  */
 
 footer {
