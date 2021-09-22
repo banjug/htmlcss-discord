@@ -98,17 +98,14 @@ p {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: top;
-    position: relative;
     text-align: center;
+    display: table-cell;
+    vertical-align: middle;
 }
 
     #jumbotron section {
         width: 50%;
-        height: auto;
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        margin: 0 auto;
     }
 
         #jumbotron section h3 {
