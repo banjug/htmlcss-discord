@@ -113,6 +113,14 @@ body {
             margin-bottom: 30px;
         }
 
+        #jumbotron .fa-long-arrow-alt-down {
+            margin-right: 5px;
+        }
+
+        #jumbotron .btnBlack {
+            background-color: #23272a;
+            color: #fff;
+        }
             
 
 
