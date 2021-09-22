@@ -192,7 +192,7 @@ h3 {
 /* footer  */
 
 footer {
-    background-color: indigo;
+    background-color: #23272a;
     width: 100%;
     height: auto;
 }
@@ -203,7 +203,7 @@ footer {
         background-color: lawngreen;
     }
 
-        #topFooter div {
+        #footerTitle, #footerLinks {
             float: left;
             height: 200px;
         }
@@ -212,6 +212,22 @@ footer {
                 width: 30%;
                 background-color: lemonchiffon;
             }
+
+                #footerTitle h4 {
+                    color: #7289da;
+                    font-size: 30px;
+                }
+
+                #footerLanguage {
+                    height: 20px;
+                    font-size: 15px;
+                    line-height: 15px;
+                    vertical-align: middle;
+                }
+
+                    #footerLanguage img {
+                        max-height: 15px;
+                    }
 
             #footerLinks {
                 width: 70%;
